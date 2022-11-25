@@ -8,7 +8,7 @@ var userMoney = prompt("Sayohat uchun ajratgan summangizni kiriting");
 var kam = (total - userMoney);
 var elTitle = document.querySelector(".title");
 if (userMoney >= total) {
-    elTitle.textContent = `Oq yo'l ${userName.toUpperCase}`
+    elTitle.textContent = `Oq yo'l ${userName}`
 } else {
-    elTitle.textContent = `${userName.toUpperCase}  Ozgina sabr qiling sizda sayohat uchun ${kam} so'm  mablag' yetishmayapti !!!`
+    elTitle.textContent = `${userName}  Ozgina sabr qiling sizda sayohat uchun ${kam} so'm  mablag' yetishmayapti !!!`
 };
